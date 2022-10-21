@@ -4,8 +4,9 @@
 //
 //  Created by Total Solution on 21/10/22.
 //
-
+/*
 import XCTest
+ 
 @testable import TestCustomSdk
 
 class TestCustomSdkTests: XCTestCase {
@@ -31,3 +32,4 @@ class TestCustomSdkTests: XCTestCase {
     }
 
 }
+ */

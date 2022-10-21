@@ -7,17 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		509E706D2902BDAC00D13713 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509E706C2902BDAC00D13713 /* ViewController.swift */; };
 		50DF28BA290289CF004986CB /* TestCustomSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50DF28B0290289CF004986CB /* TestCustomSdk.framework */; };
 		50DF28BF290289CF004986CB /* TestCustomSdkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DF28BE290289CF004986CB /* TestCustomSdkTests.swift */; };
 		50DF28C1290289CF004986CB /* TestCustomSdk.h in Headers */ = {isa = PBXBuildFile; fileRef = 50DF28B3290289CF004986CB /* TestCustomSdk.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		50DF28D329028B4B004986CB /* Util in Resources */ = {isa = PBXBuildFile; fileRef = 50DF28CE29028B49004986CB /* Util */; };
-		50DF28D629028B4B004986CB /* Modules in Resources */ = {isa = PBXBuildFile; fileRef = 50DF28D129028B4A004986CB /* Modules */; };
-		50DF28D729028B4B004986CB /* APIS in Resources */ = {isa = PBXBuildFile; fileRef = 50DF28D229028B4B004986CB /* APIS */; };
-		50DF28E429029D3E004986CB /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 50DF28E329029D3E004986CB /* FirebaseAnalytics */; };
-		50DF28E629029D3E004986CB /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 50DF28E529029D3E004986CB /* FirebaseMessaging */; };
-		50DF28E829029D3E004986CB /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 50DF28E729029D3E004986CB /* FirebaseAuth */; };
-		50DF28EA29029D3E004986CB /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 50DF28E929029D3E004986CB /* FirebaseFirestore */; };
-		50DF28EC29029D3E004986CB /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 50DF28EB29029D3E004986CB /* FirebaseStorage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,15 +24,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		509E706C2902BDAC00D13713 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		50DF28B0290289CF004986CB /* TestCustomSdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestCustomSdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50DF28B3290289CF004986CB /* TestCustomSdk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCustomSdk.h; sourceTree = "<group>"; };
 		50DF28B4290289CF004986CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50DF28B9290289CF004986CB /* TestCustomSdkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestCustomSdkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50DF28BE290289CF004986CB /* TestCustomSdkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCustomSdkTests.swift; sourceTree = "<group>"; };
 		50DF28C0290289CF004986CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		50DF28CE29028B49004986CB /* Util */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Util; sourceTree = "<group>"; };
-		50DF28D129028B4A004986CB /* Modules */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Modules; sourceTree = "<group>"; };
-		50DF28D229028B4B004986CB /* APIS */ = {isa = PBXFileReference; lastKnownFileType = folder; path = APIS; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,11 +38,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50DF28E629029D3E004986CB /* FirebaseMessaging in Frameworks */,
-				50DF28EA29029D3E004986CB /* FirebaseFirestore in Frameworks */,
-				50DF28E829029D3E004986CB /* FirebaseAuth in Frameworks */,
-				50DF28EC29029D3E004986CB /* FirebaseStorage in Frameworks */,
-				50DF28E429029D3E004986CB /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,11 +73,9 @@
 		50DF28B2290289CF004986CB /* TestCustomSdk */ = {
 			isa = PBXGroup;
 			children = (
-				50DF28D229028B4B004986CB /* APIS */,
-				50DF28D129028B4A004986CB /* Modules */,
-				50DF28CE29028B49004986CB /* Util */,
 				50DF28B3290289CF004986CB /* TestCustomSdk.h */,
 				50DF28B4290289CF004986CB /* Info.plist */,
+				509E706C2902BDAC00D13713 /* ViewController.swift */,
 			);
 			path = TestCustomSdk;
 			sourceTree = "<group>";
@@ -134,11 +118,6 @@
 			);
 			name = TestCustomSdk;
 			packageProductDependencies = (
-				50DF28E329029D3E004986CB /* FirebaseAnalytics */,
-				50DF28E529029D3E004986CB /* FirebaseMessaging */,
-				50DF28E729029D3E004986CB /* FirebaseAuth */,
-				50DF28E929029D3E004986CB /* FirebaseFirestore */,
-				50DF28EB29029D3E004986CB /* FirebaseStorage */,
 			);
 			productName = TestCustomSdk;
 			productReference = 50DF28B0290289CF004986CB /* TestCustomSdk.framework */;
@@ -173,6 +152,7 @@
 				TargetAttributes = {
 					50DF28AF290289CF004986CB = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
 					50DF28B8290289CF004986CB = {
 						CreatedOnToolsVersion = 12.4;
@@ -190,6 +170,7 @@
 			mainGroup = 50DF28A6290289CF004986CB;
 			packageReferences = (
 				50DF28E229029D3E004986CB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				50DF28EF2902AEC3004986CB /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
 			);
 			productRefGroup = 50DF28B1290289CF004986CB /* Products */;
 			projectDirPath = "";
@@ -206,9 +187,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50DF28D629028B4B004986CB /* Modules in Resources */,
-				50DF28D329028B4B004986CB /* Util in Resources */,
-				50DF28D729028B4B004986CB /* APIS in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				509E706D2902BDAC00D13713 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,6 +352,7 @@
 		50DF28C5290289CF004986CB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -393,6 +373,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -401,6 +382,7 @@
 		50DF28C6290289CF004986CB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -429,6 +411,7 @@
 		50DF28C8290289CF004986CB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TestCustomSdkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -446,6 +429,7 @@
 		50DF28C9290289CF004986CB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TestCustomSdkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -501,35 +485,15 @@
 				minimumVersion = 10.0.0;
 			};
 		};
+		50DF28EF2902AEC3004986CB /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		50DF28E329029D3E004986CB /* FirebaseAnalytics */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 50DF28E229029D3E004986CB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAnalytics;
-		};
-		50DF28E529029D3E004986CB /* FirebaseMessaging */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 50DF28E229029D3E004986CB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseMessaging;
-		};
-		50DF28E729029D3E004986CB /* FirebaseAuth */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 50DF28E229029D3E004986CB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAuth;
-		};
-		50DF28E929029D3E004986CB /* FirebaseFirestore */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 50DF28E229029D3E004986CB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseFirestore;
-		};
-		50DF28EB29029D3E004986CB /* FirebaseStorage */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 50DF28E229029D3E004986CB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseStorage;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 50DF28A7290289CF004986CB /* Project object */;
 }

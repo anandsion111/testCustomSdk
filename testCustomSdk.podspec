@@ -9,11 +9,11 @@ Pod::Spec.new do |spec|
     :type => 'MIT',
     :file => 'LICENSE' 
   }
-  spec.homepage     = 'https://github.com/anandsion111/testCustomSdk
+  spec.homepage     = 'https://github.com/anandsion111/testCustomSdk'
   spec.source       = { 
     :git => 'https://github.com/anandsion111/testCustomSdk.git', 
-    :branch => 'main',
-    :tag => spec.version.to_s 
+    :branch => 'master',
+    :tag => spec.version.to_s  
   }
   spec.summary      = 'Custom SDK for example'
   spec.source_files = '**/*.swift', '*.swift'
