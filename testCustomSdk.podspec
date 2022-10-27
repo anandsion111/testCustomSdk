@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = 'https://github.com/anandsion111/testCustomSdk'
   spec.source       = { 
     :git => 'https://github.com/anandsion111/testCustomSdk.git', 
-    :branch => 'master',
+    :branch => 'main',
     :tag => spec.version.to_s  
   }
   spec.summary      = 'Custom SDK for example'

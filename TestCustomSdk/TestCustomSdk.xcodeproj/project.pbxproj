@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		509E706D2902BDAC00D13713 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509E706C2902BDAC00D13713 /* ViewController.swift */; };
+		50B522CB290A9EAC0059E827 /* TestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B522CA290A9EAB0059E827 /* TestService.swift */; };
 		50DF28BA290289CF004986CB /* TestCustomSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50DF28B0290289CF004986CB /* TestCustomSdk.framework */; };
 		50DF28BF290289CF004986CB /* TestCustomSdkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DF28BE290289CF004986CB /* TestCustomSdkTests.swift */; };
 		50DF28C1290289CF004986CB /* TestCustomSdk.h in Headers */ = {isa = PBXBuildFile; fileRef = 50DF28B3290289CF004986CB /* TestCustomSdk.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -25,6 +26,7 @@
 
 /* Begin PBXFileReference section */
 		509E706C2902BDAC00D13713 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		50B522CA290A9EAB0059E827 /* TestService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestService.swift; sourceTree = "<group>"; };
 		50DF28B0290289CF004986CB /* TestCustomSdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestCustomSdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50DF28B3290289CF004986CB /* TestCustomSdk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCustomSdk.h; sourceTree = "<group>"; };
 		50DF28B4290289CF004986CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 				50DF28B3290289CF004986CB /* TestCustomSdk.h */,
 				50DF28B4290289CF004986CB /* Info.plist */,
 				509E706C2902BDAC00D13713 /* ViewController.swift */,
+				50B522CA290A9EAB0059E827 /* TestService.swift */,
 			);
 			path = TestCustomSdk;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				509E706D2902BDAC00D13713 /* ViewController.swift in Sources */,
+				50B522CB290A9EAC0059E827 /* TestService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
